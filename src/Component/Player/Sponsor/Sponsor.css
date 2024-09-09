@@ -1,0 +1,19 @@
+
+#sponsor .content{
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+#sponsor .content div{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+    border: solid 1px gray;
+    width: 100%;
+}
+#sponsor .content div img{
+    width: 100%;
+}
+

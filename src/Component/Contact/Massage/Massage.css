@@ -1,0 +1,92 @@
+#massage h1{
+    text-align: center;
+    color: #aaff00;
+    font-size: 20px;
+}
+#massage h2 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+#massage h2 span {
+    color: greenyellow;
+}
+#massage p {
+    color: rgba(255, 255, 255, 0.427);
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0;
+}
+#massage form {
+    width: 100%;
+}
+.frist-part-input {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+.second-part-input {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.frist-part-input input {
+    padding: 25px 30px;
+    color: rgba(255, 255, 255, 0.437);
+    border: #585858 solid 1px;
+    border-radius: 4px;
+    width: calc(97%/2);
+    background-color: rgba(255, 0, 0, 0);
+}
+.last-part-input{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.last-part-input textarea {
+    color: rgba(255, 255, 255, 0.437);
+    border: #585858 solid 1px;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 96.5%;
+    margin-top: 20px;
+    height: 200px;
+    background-color: #58585800;
+    padding: 20px;
+}
+
+.send-emaill {
+    width: fit-content;
+    margin: 0 auto;
+    background-color: rgb(152, 223, 0);
+}
+.send-emaill button {
+    border-radius: 6px;
+    background-color: var(--main-color);
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.4s;
+    padding: 15px;
+    border: solid 1px rgba(255, 127, 80, 0);
+}
+.second-part-input input {
+    padding: 25px 30px;
+    color: rgba(255, 255, 255, 0.437);
+    border: #585858 solid 1px;
+    border-radius: 4px;
+    width: calc(97%/2);
+    margin-top: 20px;
+    background-color: rgba(255, 0, 0, 0);
+}

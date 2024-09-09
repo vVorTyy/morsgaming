@@ -1,0 +1,81 @@
+#meet-team{
+    display: flex;
+    flex-direction: column;
+}
+#meet-team .content{ 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+#meet-team h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+#meet-team h1 span{
+    color: rgb(200, 255, 0);
+}
+#meet-team .content .card{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    background-color: rgb(156, 202, 56);
+    margin:10px 0;
+
+}
+
+#meet-team .content .card .images img{
+    width: 100%;
+}
+#meet-team .content .card .description{
+    background-color: rgb(42, 48, 52);
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    padding:5px 10px ;
+    border-left: solid 1px rgb(156, 202, 56) ;
+
+}
+
+#meet-team .content .card .description h3{
+    padding: 0;
+    margin: 0;
+}
+#meet-team .content .card .description h3 span{
+    font-size: 15px;
+}
+#meet-team .content .card {
+    width: 23%; 
+}
+
+@media (max-width: 768px) {
+    #meet-team .content{ 
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: auto;
+    }
+    #meet-team .content .card {
+        width: 48%; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    #meet-team .content{ 
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    #meet-team .content .card {
+        width: 100%; 
+    }
+}

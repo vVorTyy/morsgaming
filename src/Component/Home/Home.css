@@ -1,0 +1,14 @@
+
+
+.container{
+    width: 1200px;
+    margin: 200px auto;
+    /* border: solid 2px red; */
+}
+
+@media (max-width: 1500px) {
+    .container{
+        /* border: solid 2px rgb(0, 119, 255); */
+        padding: 0 20px;
+    } 
+}

@@ -1,0 +1,44 @@
+
+#games h1 {
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: -3px;
+}
+#games h1 span {
+    color: var(--main-color);
+    font-size: 20px;
+}
+#games .content{
+    width: 100%;
+}
+#games .content .images{
+    width: 80%;
+    margin: auto;
+}
+#games .content .images img{
+    margin:0 15px ;
+}
+#games .content .images img:nth-child(2) {
+    transform: translateY(-20px);
+}
+
+
+
+@media (max-width: 768px) {
+    #games .content .images {
+        flex-direction: column; /* تغيير التصفيف إلى عمودي */
+        align-items: center; /* تصفيف الصور في الوسط بشكل رأسي */
+        margin: auto;
+        width: 50%;
+    }
+    
+    #games .content .images img {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    #games .content .images img:nth-child(2) {
+        transform: translateY(0px);
+    }
+}

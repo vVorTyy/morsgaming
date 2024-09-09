@@ -1,0 +1,109 @@
+/* About Section */
+
+#About h1 {
+    font-size: 20px;
+    color: #a9db43;
+}
+
+/* Content Layout */
+#About .content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+/* Text Side */
+#About .text-side {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+#About .text-side h2 {
+    color: #fff;
+    font-size: 50px;
+}
+
+#About .text-side h2 span {
+    color: #a9db43;
+}
+
+#About .text-side p {
+    color: rgba(255, 255, 255, 0.344);
+    margin: 28px 0;
+}
+
+#About .text-side div {
+    color: #a9db43;
+    border: 1px solid rgba(162, 255, 0, 0.716);
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 11px 15px;
+    text-transform: uppercase;
+    width: fit-content;
+    margin: 0;
+}
+
+/* Image Side */
+#About .img-side {
+    position: relative;
+    width: calc(800px / 2);
+}
+
+#About .img-side a {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    opacity: 50%;
+    background-color: rgba(0, 0, 255, 0);
+    width: 90%;
+    text-align: center;
+    top: 40%;
+    transition: 0.5s;
+}
+
+#About .img-side a i {
+    transition: 0.5s;
+}
+
+#About .img-side a i:hover {
+    transform: scale(1.2);
+}
+
+#About .img-side img {
+    width: 100%;
+}
+
+/* Responsive Design for 768px and below */
+@media (max-width: 768px) {
+    #About .content {
+        align-items: center;
+    }
+
+    #About .text-side{
+        width: 30%;
+    }
+    #About .img-side {
+        width: 30%; /* Reduce width for smaller screens */
+    }
+
+    #About .text-side h2 {
+        font-size: 30px; /* Reduce font size */
+    }
+
+    #About .text-side p {
+        font-size: 14px; /* Reduce paragraph font size */
+    }
+
+    #About .text-side div {
+        font-size: 12px; /* Reduce button font size */
+    }
+
+    #About .img-side a {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

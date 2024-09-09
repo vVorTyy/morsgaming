@@ -1,0 +1,53 @@
+/* Headers Section */
+#hero header {
+    margin: auto;
+}
+#hero header h1 {
+    color: #a9db43;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+#hero header h2 {
+    color: #fff; /* Using shorthand for color */
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px auto;
+    letter-spacing: -5px;
+}
+
+#hero header h3 {
+    color: #fff;
+    background-color: #a9db43;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 20px 35px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    #hero .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    #hero header {
+        width: 100%;
+        margin: 100px auto;
+    }
+
+    #hero header h2 {
+        font-size: 50px;
+        letter-spacing: -2px;
+    }
+
+    #hero header h3 {
+        font-size: 12px;
+        padding: 15px 25px;
+    }
+}

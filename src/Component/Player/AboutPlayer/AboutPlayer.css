@@ -1,0 +1,34 @@
+#about-player .content{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+#about-player .content .left-side{  
+    width: 40%;
+}
+#about-player .content .left-side img{  
+    width: 100%;
+}
+#about-player .content .right-side{
+    width: 50%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size:30px;
+    width: 40%;
+}
+#about-player .content .right-side p{
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.278);
+}
+#about-player .content .right-side p span{
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin:20px 0;
+    color: rgb(255, 255, 255);
+
+}
+

@@ -1,0 +1,205 @@
+
+/* Main heading styling */
+#matches h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: -3px;
+    margin: 0;
+}
+
+/* Highlighted text inside the main heading */
+#matches h1 span {
+    color: #a9db43;
+    text-align: center;
+}
+/* Card container styling */
+#matches .card {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    padding: 0;
+    height: 40px;
+}
+
+/* Styling for the watch section */
+#matches .watch {
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.463);
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+/* Card heading (h3) styling */
+#matches .card h3 {
+    background-color: rgba(255, 255, 255, 0.067);
+    color: white;
+    width: 45%;
+    text-align: right;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 2px;
+    border-left: 2px solid var(--main-color);
+    font-size: 15px;
+}
+
+/* Card paragraph (p) styling */
+#matches .card p {
+    color: white;
+    width: 10%;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Card subheading (h4) styling */
+#matches .card h4 {
+    background-color: rgba(255, 255, 255, 0.067);
+    color: white;
+    width: 45%;
+    text-transform: uppercase;
+    padding: 15px;
+    border-radius: 2px;
+    border-right: 2px solid var(--main-color);
+    font-size: 15px;
+}
+
+/* Left side styling */
+#matches .side-one {
+    width: 40%;
+    text-align: right;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+/* Styling for links in the watch section */
+#matches .watch a {
+    color: rgba(255, 255, 255, 0.286);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 7px;
+}
+
+/* Right side styling */
+#matches .side-two {
+    width: 40%;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+/* Larger card paragraph (p) styling */
+#matches .card p {
+    color: white;
+    width: 14%;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 8px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+/* Media query for screen widths 992px or less */
+@media screen and (max-width: 992px) {
+
+    /* Reduce font sizes and element sizes slightly and add margin */
+    #matches h1 {
+        font-size: 45px;
+        margin: 20px 0;
+    }
+    #matches .card h3, .card h4 {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    #matches .card p {
+        font-size: 22px;
+    }
+
+    #matches .watch {
+        font-size: 14px;
+    }
+
+    #matches .watch a {
+        font-size: 13px;
+    }
+
+    #matches .side-one, .side-two {
+        font-size: 14px;
+    }
+}
+
+/* Media query for screen widths 768px or less */
+@media screen and (max-width: 768px) {
+
+    /* Further reduce sizes */
+    #matches h1 {
+        font-size: 40px;
+        margin: 15px 0;
+    }
+
+    #matches .card h3, .card h4 {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    #matches .card p {
+        font-size: 20px;
+    }
+
+    #matches .watch {
+        font-size: 13px;
+    }
+
+    #matches .watch a {
+        font-size: 12px;
+    }
+
+    #matches .side-one, .side-two {
+        font-size: 13px;
+    }
+}
+
+/* Media query for screen widths 600px or less */
+@media screen and (max-width: 600px) {
+
+    /* Further reduce sizes significantly */
+    #matches h1 {
+        font-size: 35px;
+        margin: 10px 0;
+    }
+
+    #matches .card h3, .card h4 {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    #matches .card p {
+        font-size: 18px;
+    }
+
+    #matches .watch {
+        font-size: 12px;
+    }
+
+    #matches .watch a {
+        font-size: 11px;
+    }
+
+    #matches .side-one, .side-two {
+        font-size: 12px;
+    }
+}

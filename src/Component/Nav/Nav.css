@@ -1,0 +1,33 @@
+
+#nav .container{
+    margin: 0 auto;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    height: 100px;
+}
+#nav .navber .nav-link {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: #20263500;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 10px 25px;
+    transition: 0.5s;
+}
+#nav .navber .nav-link:hover{
+    background-color: rgba(255, 255, 255, 0.139);
+    
+}
+#nav .navber img {
+    width: 60px;
+    background-color: #20263500;
+}
+

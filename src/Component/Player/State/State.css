@@ -1,0 +1,29 @@
+
+#state .content{
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+#state .content div{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+    border: solid 1px gray;
+    width: 100%;
+}
+#state .content div i{
+    color: rgb(153, 255, 0);
+}
+#state .content div h2{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    text-transform: uppercase;
+
+}#state .content div h2 span{
+    color: rgba(255, 255, 255, 0.52);
+
+}

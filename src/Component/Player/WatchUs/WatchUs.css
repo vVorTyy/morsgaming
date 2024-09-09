@@ -1,0 +1,29 @@
+#watch-us .content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+#watch-us .content div{
+    width: calc(100% / 3 - 40px);
+    position: relative;
+
+}
+#watch-us .content div img{
+    width: 100%;
+}
+#watch-us .content div i{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s;
+
+}
+#watch-us .content div:hover i{
+    scale: 1.1;
+}
+

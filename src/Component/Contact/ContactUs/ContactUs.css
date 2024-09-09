@@ -1,0 +1,42 @@
+#contact-us h1 {
+    color: chartreuse;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 36px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#contact-us h1 span {
+    color: white;
+    font-size: 70px;
+}
+#contact-us .card {
+    background-color: rgba(255, 255, 255, 0.076);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-left: chartreuse solid 1px;
+    border-right: chartreuse solid 1px;
+    padding: 21px;
+    margin-bottom: 200px;
+}
+#contact-us .card div {
+    color: rgba(255, 255, 255, 0.531);
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    line-height: 65px;
+}
+
+#contact-us .card i {
+    background-color: rgba(255, 255, 255, 0);
+    color: #77ff00a3;
+    font-size: 20px;
+    margin: 0;
+}
