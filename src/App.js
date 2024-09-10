@@ -15,7 +15,6 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-        <Nav/>
           <Route path="/" element={<Home/>}/>
           <Route path="/morsgaming/" element={<Home/>}/>
           <Route path="/about" element={<About/>} />
@@ -23,7 +22,6 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/player' element={<Player/>}/>
           <Route path='/team' element={<Team/>}/>
-          <Nav/>
         </Routes>
       </BrowserRouter>
     </div>
