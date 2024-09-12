@@ -8,6 +8,7 @@ export default function About() {
 
           <div class="content">
             <div class="text-side">
+            <hr />
               <h2>
                 ABOUT THE <span>MORS</span> EPORTS TEAM
               </h2>

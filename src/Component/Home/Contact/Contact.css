@@ -122,6 +122,17 @@
         padding: 8px 20px;
         font-size: 12px;
     }
+    #contact .card h1 {
+        font-size: 61px;
+    }
+    #contact .card p {
+        font-size: 40px;
+    }
+    #contact .card a {
+        padding: 8px 20px;
+        font-size: 38px;
+    }
+
 
 }
 

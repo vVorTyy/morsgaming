@@ -63,28 +63,28 @@ export default function Matches() {
             return (
               <>
                 <div class="card" key={index}>
-                  <h3>{e.clan1}</h3>
-                  <p>{e.result}</p>
-                  <h4>{e.clan2}</h4>
-                </div>
-                <div class="watch">
-                  <div class="side-one">
-                    watch
-                    <a href={e.twichLinkClanOne}>
-                      <i class="fa-brands fa-twitch"></i>
-                    </a>
-                    <a href={e.YoutubeLinkClanOne}>
-                      <i class="fa-brands fa-youtube"></i>
-                    </a>
+                  <div className="right-side">
+                    <div>{e.clan1}</div>
+                    <div class="side-one">
+                      watch <a href={e.twichLinkClanOne}><i class="fa-brands fa-twitch"></i>
+                      </a>
+                      <a href={e.YoutubeLinkClanOne}>
+                        <i class="fa-brands fa-youtube"></i>
+                      </a>
+                    </div>
                   </div>
-                  <div class="side-two">
-                    watch
-                    <a href={e.twichLinkClanTwo}>
-                      <i class="fa-brands fa-twitch"></i>
-                    </a>
-                    <a href={e.YoutubeLinkClanTwo}>
-                      <i class="fa-brands fa-youtube"></i>
-                    </a>
+                  <div className="result">{e.result}</div>
+                  <div className="left-side">
+                    <div>{e.clan2}</div>
+                    <div class="side-two">
+                      watch
+                      <a href={e.twichLinkClanTwo}>
+                        <i class="fa-brands fa-twitch"></i>
+                      </a>
+                      <a href={e.YoutubeLinkClanTwo}>
+                        <i class="fa-brands fa-youtube"></i>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </>
@@ -92,6 +92,7 @@ export default function Matches() {
           })}
         </div>
       </div>
+
     </div>
   );
 }

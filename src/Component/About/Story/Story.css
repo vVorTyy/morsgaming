@@ -32,3 +32,12 @@
     font-size: 35px;
     font-weight: 700;
 }
+@media (max-width: 768px) {
+    #story .content h1 {
+        font-size: 103px;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+}

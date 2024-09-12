@@ -14,6 +14,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
+        <Nav/>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/morsgaming/" element={<Home/>}/>
@@ -23,6 +24,8 @@ function App() {
           <Route path='/player' element={<Player/>}/>
           <Route path='/team' element={<Team/>}/>
         </Routes>
+        <Nav/>
+        {/* <Footer/> */}
       </BrowserRouter>
     </div>
   );

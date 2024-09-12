@@ -20,11 +20,20 @@
 #About .text-side {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
 }
+
+#About .text-side hr {
+    width: 100px;
+    color: #a9db43;
+    margin-bottom: 30px;
+    background-color: #a9db43;
+}
+
+
 #About .text-side h2 {
     color: #fff;
-    font-size: 50px;
+    font-size: 56px;
 }
 
 #About .text-side h2 span {
@@ -34,12 +43,13 @@
 #About .text-side p {
     color: rgba(255, 255, 255, 0.344);
     margin: 28px 0;
+    font-size: 22px;
+    width: 480px;
 }
-
 #About .text-side div {
     color: #a9db43;
     border: 1px solid rgba(162, 255, 0, 0.716);
-    font-size: 15px;
+    font-size: 19px;
     border-radius: 4px;
     padding: 11px 15px;
     text-transform: uppercase;
@@ -50,7 +60,7 @@
 /* Image Side */
 #About .img-side {
     position: relative;
-    width: calc(800px / 2);
+    width:50%;
 }
 
 #About .img-side a {
@@ -91,7 +101,7 @@
     }
 
     #About .text-side h2 {
-        font-size: 30px; /* Reduce font size */
+        font-size: 70px; /* Reduce font size */
     }
 
     #About .text-side p {
@@ -105,5 +115,30 @@
     #About .img-side a {
         top: 50%;
         transform: translateY(-50%);
+    }
+    #About .content {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+    #About .text-side {
+        width: 100%;
+    }
+    #About .text-side h2 {
+        font-size: 120px;
+    }
+    #About .text-side p {
+        font-size: 50px;
+        width: 100%;
+    }
+    #About .text-side div {
+        font-size: 42px;
+    }
+    #About .img-side{
+        width: 100%;
     }
 }

@@ -41,4 +41,17 @@
     #games .content .images img:nth-child(2) {
         transform: translateY(0px);
     }
+    #games h1 {
+        color: white;
+        font-size: 118px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: -3px;
+    }
+    #games .content .images {
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: 70%;
+    }
 }

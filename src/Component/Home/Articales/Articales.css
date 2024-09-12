@@ -170,6 +170,19 @@
     #articales .card div p {
         font-size: 18px;
     }
+    #articales .blog-art h1 {
+        font-size: 55px;
+    }
+    #articales .blog-art h1 span {
+        font-size: 65px;
+    }
+    #articales .blog-art h2 {
+        font-size: 50px;
+    }
+    #articales .content {
+        width: 100%;
+        margin: auto;
+    }
 }
 
 /* Styles for screens 600px and below */

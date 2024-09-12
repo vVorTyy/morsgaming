@@ -10,7 +10,7 @@
     gap: 1rem;
 }
 #meet-team h1{
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     text-align: center;
     text-transform: uppercase;
@@ -52,6 +52,7 @@
     width: 23%; 
 }
 
+
 @media (max-width: 768px) {
     #meet-team .content{ 
         width: 50%;
@@ -64,8 +65,22 @@
     #meet-team .content .card {
         width: 48%; 
     }
+    #meet-team h1 {
+        font-size: 80px;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 100px;
+    }
+    #meet-team .content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: auto;
+    }
 }
-
 
 @media (max-width: 480px) {
     #meet-team .content{ 
@@ -76,6 +91,7 @@
         gap: 1rem;
     }
     #meet-team .content .card {
-        width: 100%; 
+        width: 100%;
     }
+
 }

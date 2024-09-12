@@ -23,9 +23,74 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    margin-top: 1px;
     padding: 0;
-    height: 40px;
+    align-items:start;
+}
+#matches .card .right-side div:nth-child(1){
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.09);
+    padding: 5px;
+    border-left: #a9db43 solid 3px;
+}
+#matches .card .right-side div:nth-child(2){
+    padding: 5px;
+    font-size: 10px;
+    margin: 5px;
+    color: rgba(255, 255, 255, 0.253);
+}
+#matches .card .right-side div:nth-child(2) a {
+    padding: 5px;
+    font-size: 10px;
+    margin: 1px;
+    color: rgba(255, 255, 255, 0.235);
+}
+#matches .card .left-side div:nth-child(1){
+    background-color: rgba(248, 248, 248, 0.092);
+    padding: 5px;
+    border-right: #a9db43 solid 3px;
+}
+#matches .card .left-side div:nth-child(2){
+    padding: 5px;
+    font-size: 10px;
+    margin: 5px;
+    color: rgba(255, 255, 255, 0.205);
+}#matches .card .left-side div:nth-child(2) a{
+    padding: 5px;
+    font-size: 10px;
+    margin: px;
+    color: rgba(255, 255, 255, 0.182);
+}
+
+
+#matches .card .right-side{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+}
+#matches .card .left-side{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+}
+
+#matches .card .result {
+    width: fit-content;
+    background-color: rgba(255, 0, 0, 0);
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    padding: 0 15px;
+}
+
+#matches .card div div{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
 }
 
 /* Styling for the watch section */
@@ -77,10 +142,10 @@
 
 /* Left side styling */
 #matches .side-one {
-    width: 40%;
     text-align: right;
     margin-bottom: 30px;
     font-size: 15px;
+    right: 0;
 }
 
 /* Styling for links in the watch section */
@@ -94,9 +159,8 @@
 
 /* Right side styling */
 #matches .side-two {
-    width: 40%;
     margin-bottom: 30px;
-    font-size: 15px;
+    font-size: 75px;
 }
 
 /* Larger card paragraph (p) styling */
@@ -170,6 +234,91 @@
 
     #matches .side-one, .side-two {
         font-size: 13px;
+    }
+    #matches .card {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction:column ;
+        flex-wrap: nowrap;
+        padding: 0;
+        gap: 4.5rem;
+    }
+    #matches .card .result {
+        width: fit-content;
+        background-color: rgba(255, 0, 0, 0);
+        font-size: 20px;
+        color: white;
+        font-weight: 700;
+        padding: 0 15px;
+        display: none;
+    }
+    #matches h1 {
+        font-size: 138px;
+        margin: 15px 0;
+    }
+    #matches .card .right-side div:nth-child(1) {
+        text-align: right;
+        background-color: rgba(255, 255, 255, 0.09);
+        padding: 5px;
+        border-left: #a9db43 solid 3px;
+        font-size: 75px;
+    }
+    #matches .card .right-side div:nth-child(1) {
+
+        font-size: 75px;
+    }
+    #matches .card .left-side div:nth-child(1) {
+
+        font-size: 75px;
+    }
+    #matches .card .left-side div:nth-child(2) {
+        padding: 5px;
+        font-size: 10px;
+        margin: 5px;
+        color: rgba(255, 255, 255, 0.205);
+        font-size: 40px;
+    }
+    #matches .card .right-side div:nth-child(2) {
+        padding: 5px;
+        font-size: 10px;
+        margin: 5px;
+        color: rgba(255, 255, 255, 0.205);
+        font-size: 40px;
+    }
+    #matches .card .right-side div:nth-child(2) a{
+        padding: 5px;
+        font-size: 10px;
+        margin: 5px;
+        color: rgba(255, 255, 255, 0.205);
+        font-size: 30px;
+    }
+    #matches .card .right-side div:nth-child(2) a{
+        padding: 5px;
+        font-size: 10px;
+        margin: 5px;
+        color: rgba(255, 255, 255, 0.205);
+        font-size: 30px;
+    }
+    #matches .card .left-side div:nth-child(2) a {
+        padding: 5px;
+        font-size: 10px;
+        margin: 5px;
+        color: rgba(255, 255, 255, 0.182);
+        font-size: 30px;
+    }
+    #matches .card {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 0;
+        gap: 6.5rem;
+    }
+    #matches h1 {
+        font-size: 100px;
+        margin: 15px 0;
     }
 }
 

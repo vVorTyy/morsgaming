@@ -48,4 +48,30 @@
   .play-button:hover {
     color: #fff;
   }
-  
+
+
+
+  @media (max-width: 768px) {
+    #hero-about h2 {
+      font-size: 159px;
+  }
+  #about-2 .content .card {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+    margin: auto;
+}
+#about-2 .content .card .left-side h1 {
+  color: white;
+  font-size: 80px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+#about-2 .content .card .left-side p {
+  color: rgba(255, 255, 255, 0.338);
+  font-size: 29px;
+}
+
+}
