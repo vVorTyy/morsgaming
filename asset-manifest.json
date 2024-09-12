@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/morsgaming/static/css/main.6e75c717.css",
-    "main.js": "/morsgaming/static/js/main.999c2539.js",
+    "main.css": "/morsgaming/static/css/main.06d82878.css",
+    "main.js": "/morsgaming/static/js/main.fa29a978.js",
     "static/media/gost5.png": "/morsgaming/static/media/gost5.3e60a894de01f1d732eb.png",
     "static/media/1212 modefited.png": "/morsgaming/static/media/1212 modefited.b9d10d2d2387af1f3e52.png",
     "static/media/121212.png": "/morsgaming/static/media/121212.fe9e723b7e17c8283954.png",
@@ -22,11 +22,11 @@
     "static/media/1.png": "/morsgaming/static/media/1.5fbc91e2be5ab1c81334.png",
     "static/media/12.png": "/morsgaming/static/media/12.79ca8ea193c61941b8e7.png",
     "index.html": "/morsgaming/index.html",
-    "main.6e75c717.css.map": "/morsgaming/static/css/main.6e75c717.css.map",
-    "main.999c2539.js.map": "/morsgaming/static/js/main.999c2539.js.map"
+    "main.06d82878.css.map": "/morsgaming/static/css/main.06d82878.css.map",
+    "main.fa29a978.js.map": "/morsgaming/static/js/main.fa29a978.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e75c717.css",
-    "static/js/main.999c2539.js"
+    "static/css/main.06d82878.css",
+    "static/js/main.fa29a978.js"
   ]
 }
