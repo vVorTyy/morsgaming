@@ -29,3 +29,17 @@
 #about-2 .content .card .right-side img{
     width: 100%;
 }
+/* Styles for screens 768px and below */
+@media (max-width: 768px) {
+    #about-2 .content .card {
+        width: 100%;
+    }
+    #about-2 .content .card .left-side h1 {
+        font-size: 75px;
+
+    }
+    #about-2 .content .card .left-side p {
+        color: rgba(255, 255, 255, 0.338);
+        font-size: 29px;
+    }
+}

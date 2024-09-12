@@ -40,3 +40,36 @@
     font-size: 20px;
     margin: 0;
 }
+/* Styles for screens 768px and below */
+@media (max-width: 768px) {
+    #contact-us h1 span {
+        color: white;
+        font-size: 145px;
+    }
+    #contact-us h1 {
+        color: chartreuse;
+        font-size: 55px;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 91px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    #contact-us .card i {
+        background-color: rgba(255, 255, 255, 0);
+        color: #77ff00a3;
+        font-size: 36px;
+        margin: 0;
+    }
+    #contact-us .card div {
+        color: rgba(255, 255, 255, 0.531);
+        background-color: rgba(255, 255, 255, 0);
+        font-size: 45px;
+        margin: 30px;
+        width: 100%;
+        text-align: center;
+        line-height: 65px;
+    }
+}

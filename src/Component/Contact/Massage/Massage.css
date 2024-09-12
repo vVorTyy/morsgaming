@@ -90,3 +90,21 @@
     margin-top: 20px;
     background-color: rgba(255, 0, 0, 0);
 }
+/* Styles for screens 768px and below */
+@media (max-width: 768px) {
+
+    #massage h2 {
+        color: white;
+        font-size: 95px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    #massage p {
+        color: rgba(255, 255, 255, 0.427);
+        font-size: 36px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+}
